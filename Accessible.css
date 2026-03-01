@@ -1,0 +1,105 @@
+/* Accessible.css */
+
+@import url("FreeChoice.css");
+
+html, body, button, input, textarea{
+  font-family: Arial, Verdana, Tahoma, "Trebuchet MS", sans-serif !important;
+}
+
+html{
+  background: #001b2e !important;      
+  color: #ffffff !important;
+}
+
+
+.intro_section,
+.lesson,
+.resource_card,
+.modal_card{
+  background: #003049 !important;      
+  border: 3px solid #ffffff !important;
+  box-shadow: none !important;
+}
+
+.intro_section h2,
+.lesson_info h1,
+.modal_card h2,
+.logo_title{
+  color: #ffff00 !important;           
+  text-shadow: none !important;
+}
+
+
+.intro_section p,
+.resource_card p,
+.modal_card p{
+  font-size: 24px !important;
+  line-height: 1.8 !important;
+  color: #ffffff !important;
+}
+
+.lesson:hover .lesson_details{
+  background: #000000 !important;       
+  border: 3px solid #ffff00 !important;
+}
+
+
+.lesson:hover .lesson_details h2{
+  color: #00ffff !important;            
+  font-size: 26px !important;
+  font-weight: 800 !important;
+}
+
+
+.lesson:hover .lesson_details,
+.lesson:hover .lesson_details li,
+.lesson:hover .lesson_details ul,
+.lesson:hover .lesson_details ol{
+  color: #ffffff !important;
+  font-size: 24px !important;
+  line-height: 1.8 !important;
+}
+
+
+.lesson_details ul li::marker,
+.lesson_details ol li::marker{
+  color: #ffff00 !important;
+}
+
+.email_btn,
+.modal_primary,
+.modal_secondary{
+  background: #ffff00 !important;
+  color: #000000 !important;
+  border: 3px solid #ffffff !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+}
+
+a{
+  color: #00ffff !important;
+  font-weight: 700 !important;
+}
+a:hover{
+  color: #ffffff !important;
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+a:focus{
+  outline: 5px solid #ff00ff !important; 
+  outline-offset: 4px !important;
+}
+
+.theme_switch{
+  background: #003049 !important;
+  border: 3px solid #ff0000 !important;
+}
+.theme_switch label{
+  color: #ff0000 !important;
+}
+
+.theme_pill{
+  background: #ffff00 !important;
+}

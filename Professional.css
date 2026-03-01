@@ -1,0 +1,100 @@
+/* Professional.css */
+
+@import url("FreeChoice.css");
+
+html{
+  background: #f5f7fa !important;
+  color: #101318 !important;
+}
+
+.main_header{
+  background: rgba(255,255,255,0.05) !important;
+  border-bottom: 1px solid rgba(0,0,0,0.12) !important;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.08) !important;
+}
+.logo_title{
+  color: #101318 !important;
+  text-shadow: none !important;
+}
+
+.intro_section,
+.lesson,
+.resource_card,
+.modal_card{
+  background: rgba(255,255,255,0.95) !important;
+  border: 1px solid rgba(0,0,0,0.12) !important;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.08) !important;
+}
+
+.intro_section h2,
+.lesson_info h1,
+.modal_card h2{
+  color: #101318 !important;
+  text-shadow: none !important;
+}
+.intro_section p,
+.lesson_details,
+.lesson_details ul,
+.lesson_details ol,
+.modal_card p{
+  color: #2a313c !important;
+}
+
+.email_btn,
+.modal_primary,
+.modal_secondary{
+  background: #101318 !important;
+  border: 1px solid rgba(0,0,0,0.18) !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+}
+.email_btn:hover,
+.modal_primary:hover,
+.modal_secondary:hover{
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12) !important;
+  transform: translateY(-2px);
+}
+
+.resource_card a{
+  color: #1b4dff !important;
+  border-bottom-color: rgba(27,77,255,0.35) !important;
+}
+.resource_card a:hover{
+  color: #101318 !important;
+  border-bottom-color: rgba(16,19,24,0.35) !important;
+}
+
+.theme_switch{
+  background: rgba(255,255,255,0.95) !important;
+  border: 1px solid rgba(0,0,0,0.12) !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08) !important;
+}
+.theme_switch label{
+  color: rgba(16,19,24,0.85) !important;
+}
+.theme_pill{
+  background: rgba(16,19,24,0.10) !important;
+  border: 1px solid rgba(16,19,24,0.20) !important;
+  box-shadow: none !important;
+}
+
+.lesson:hover .lesson_details{
+  background: #ffffff !important;
+  border-color: rgba(0,0,0,0.12) !important;
+}
+
+.lesson:hover .lesson_details,
+.lesson:hover .lesson_details h2,
+.lesson:hover .lesson_details li,
+.lesson:hover .lesson_details ul,
+.lesson:hover .lesson_details ol{
+  color: #101318 !important;
+}
+
+.lesson:hover .lesson_details h2{
+  font-weight: 700 !important;
+}
+
+.lesson:hover .lesson_details{
+  box-shadow: 0 10px 24px rgba(0,0,0,0.10) !important;
+}
